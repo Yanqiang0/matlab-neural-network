@@ -1,0 +1,11 @@
+newp()
+net=newp(RP,S,TF,LF)
+%  RP为R*2矩阵，R组输入向量的最大值和最小值
+%  S为神经元个数
+%  TF为激活函数，默认硬幅激活函数hardlim()
+%  LF为网络的学习函数，默认为learnp()
+
+hardlim()
+A=hardlim(N);
+%  N达到阈值返回1，否则返回0
+
